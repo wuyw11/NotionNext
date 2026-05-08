@@ -21,7 +21,7 @@ const Footer = ({ siteInfo }) => {
         <div>
           <i className='mx-1 animate-pulse fas fa-heart' />{' '}
           <a
-            href={siteConfig('LINK')}
+            
             className='underline font-bold text-gray-500 dark:text-gray-300 '>
             {siteConfig('AUTHOR')}
           </a>
@@ -50,12 +50,6 @@ const Footer = ({ siteInfo }) => {
         <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
       </span>
       <div className='text-xs font-serif'>
-        Powered By{' '}
-        <a
-          href='https://github.com/tangly1024/NotionNext'
-          className='underline text-gray-500 dark:text-gray-300'>
-          NotionNext {siteConfig('VERSION')}
-        </a>
       </div>
       {/* SEO title */}
       <h1 className='pt-1 hidden'>{siteConfig('TITLE')}</h1>
